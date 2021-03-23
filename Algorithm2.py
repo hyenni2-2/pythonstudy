@@ -8,7 +8,7 @@ def find_min(a):
             min_idx=i
     return a[min_idx]
 
-b=[9,23,30,100,36,2,32]
+b=[9,23,30,100,36,2,1,32]
 
 print(find_min(b))
 
