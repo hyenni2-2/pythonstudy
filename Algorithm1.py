@@ -7,8 +7,13 @@ def for_test(n):
     return sum
 
 print(for_test(10))
-        
 
+
+# 제곱근의 합 수학공식
+def for_sum(a):
+    return a * (a + 1) * (2 * a + 1) // 6
+
+print(for_sum(10))
 
     
 
