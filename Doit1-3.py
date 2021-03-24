@@ -14,4 +14,27 @@ for i in range(a, b + 1):
 print(f'{a}부터 {b}까지 정수의 합은 {sum}입니다.')
 
 
-# 
+# +와 -를 번갈아가며 출력하기(내 코드)
+print('+와 -를 번갈아 출력합니다.')
+n = int(input('몇 개를 출력할까요? : '))
+
+for i in range(1,n + 1):
+    if i % 2:
+        print('+',end='')
+    else:
+        print('-',end='')
+
+print()
+
+# +와 -를 번갈아가며 출력하기(교재 코드)
+print('+와 -를 번갈아 출력합니다.')
+n = int(input('몇 개를 출력할까요? : '))
+
+for _ in range(n // 2):
+    print('+-',end='')
+
+if n % 2:
+    print('+', end='')
+
+print()
+
